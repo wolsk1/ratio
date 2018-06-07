@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ratio.Api", "Ratio.Api\Ratio.Api.csproj", "{F33E0FBC-A91F-46C3-9EF0-833A5B1FD91B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ratio.Host", "Ratio.Host\Ratio.Host.csproj", "{6602EEB5-E454-4650-8ABB-BCFE6F08E586}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F33E0FBC-A91F-46C3-9EF0-833A5B1FD91B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F33E0FBC-A91F-46C3-9EF0-833A5B1FD91B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F33E0FBC-A91F-46C3-9EF0-833A5B1FD91B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F33E0FBC-A91F-46C3-9EF0-833A5B1FD91B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6602EEB5-E454-4650-8ABB-BCFE6F08E586}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6602EEB5-E454-4650-8ABB-BCFE6F08E586}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6602EEB5-E454-4650-8ABB-BCFE6F08E586}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6602EEB5-E454-4650-8ABB-BCFE6F08E586}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E9AEC4A9-C83D-4CA6-937B-A9654C53A2E0}
+	EndGlobalSection
+EndGlobal
