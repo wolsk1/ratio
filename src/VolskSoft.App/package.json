@@ -1,0 +1,15 @@
+{
+  "author": "VolskSoft"
+  "name": "ratio",  
+  "description": "Ratio",
+   "devDependencies": {
+   },
+  "dependencies": {
+  },
+  "private": true,
+  "license": "UNLICENCED",
+  "scripts": {
+    "build": "webpack --config webpack.config.dev.js --progress --display-error-details"    
+  },
+  "version": "0.0.1"
+}
