@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Ratio.ServiceHost")]
+[assembly: AssemblyTitle("VolskSoft.Alfa")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Ratio.ServiceHost")]
+[assembly: AssemblyProduct("VolskSoft.Alfa")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("a8183c34-9487-4f1a-a8da-0e1dbda4586c")]
+[assembly: Guid("b9b94a49-1180-42ef-9aa7-c629dc251c71")]
 
 // Version information for an assembly consists of the following four values:
 //

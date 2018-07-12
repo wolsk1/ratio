@@ -62,6 +62,10 @@
       <Project>{f33e0fbc-a91f-46c3-9ef0-833a5b1fd91b}</Project>
       <Name>Ratio.Api</Name>
     </ProjectReference>
+    <ProjectReference Include="..\VolskSoft.Alfa\VolskSoft.Alfa.csproj">
+      <Project>{b9b94a49-1180-42ef-9aa7-c629dc251c71}</Project>
+      <Name>VolskSoft.Alfa</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
