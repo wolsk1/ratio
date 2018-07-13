@@ -45,6 +45,6 @@
         /// Method is design to perform any startup initialization tasks.
         /// </summary>
         /// <param name="configurationSection">The configuration section.</param>
-        void Initialize(ConfigurationSection configurationSection);
+        void Initialize(ConfSection configurationSection);
     }
 }

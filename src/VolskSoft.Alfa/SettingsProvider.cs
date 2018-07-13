@@ -93,7 +93,7 @@
         /// Method is design to perform any startup initialization tasks.
         /// </summary>
         /// <param name="configurationSection">The configuration section.</param>
-        public void Initialize(ConfigurationSection configurationSection)
+        public void Initialize(ConfSection configurationSection)
         {
             this.section = configurationSection;
             this.MemberwiseInitialize(this.section);
@@ -103,7 +103,7 @@
         /// Override this in child class to implement custom initialization.
         /// </summary>
         /// <param name="configurationSection">The section.</param>
-        protected virtual void MemberwiseInitialize(ConfigurationSection configurationSection)
+        protected virtual void MemberwiseInitialize(ConfSection configurationSection)
         {
         }
 
@@ -154,10 +154,5 @@
 
             return true;
         }
-    }
-
-    public class SettingsProvider
-    {
-        
     }
 }
