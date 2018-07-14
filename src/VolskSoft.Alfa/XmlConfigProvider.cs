@@ -52,7 +52,7 @@ namespace VolskSoft.Alfa
         /// Method is design to perform any startup initialization tasks.
         /// </summary>
         /// <param name="configurationSection">The configuration section.</param>
-        protected override void MemberwiseInitialize(ConfigurationSection configurationSection)
+        protected override void MemberwiseInitialize(ConfSection configurationSection)
         {
             this.filePath = GetSettingsValue(FilePathAttributeName);
 

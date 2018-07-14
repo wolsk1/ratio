@@ -25,17 +25,18 @@ namespace VolskSoft.Alfa
         /// <param name="configurationSection">The section.</param>
         protected override void MemberwiseInitialize(ConfSection configurationSection)
         {
-            this.sectionName = GetSettingsValue(SectionNameAttributeName);
+            sectionName = GetSettingsValue(SectionNameAttributeName);
 
             if (string.IsNullOrEmpty(this.sectionName))
             {
                 throw new InvalidOperationException("Missing parameter \"" + SectionNameAttributeName + "\".");
             }
 
-            NameValueCollection values = ConfigurationManager.GetSection(this.sectionName) as NameValueCollection;
+            var values = ConfigurationManager.GetSection(this.sectionName) as NameValueCollection;
+
             if (values == null)
             {
-                throw new InvalidOperationException("Section \"" + this.sectionName + "\" is not found.");
+                throw new SectionNotFoundException("Section \"" + this.sectionName + "\" is not found.");
             }
 
             SettingsCollection v = new SettingsCollection();

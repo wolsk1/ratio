@@ -5,6 +5,7 @@
     using System.Configuration;
     using System.Globalization;
     using System.Threading;
+    using VolskSoft.Bibliotheca;
 
     /// <summary>
     /// Class provides access to settings store.
@@ -336,9 +337,7 @@
             TestInstance();
 
             providers.Remove(provider);
-            Refresh();
-
-            DBConnectionFactory.ResetConnection();
+            Refresh();            
         }
 
         /// <summary>
@@ -358,7 +357,7 @@
         /// </summary>
         private static void GetProviders()
         {
-            var section = ConfigurationManager.GetSection(ConfigSection) as ConfigurationSection;
+            var section = ConfigurationManager.GetSection(ConfigSection) as ConfSection;
 
             if (section == null)
             {
